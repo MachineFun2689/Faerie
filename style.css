@@ -61,6 +61,7 @@ header {
   background-color:  var(--secondary-bg);
   background-image: url("Gradient.png");
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   border-bottom: 2px solid var(--accent-color);
   position: sticky;
   top: 0;
@@ -248,6 +249,7 @@ h2 {
 .chat {
   background-image: url(Gradient.png);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   padding: 1.5rem;
   margin: 1.5rem;
   border-radius: 8px;
@@ -267,6 +269,7 @@ h2 {
   background-color: white;
   background-image: url(Gradient.png);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   padding: 0.5rem;
   margin: 1.5rem;
   position: fixed;
@@ -324,6 +327,7 @@ h2 {
   border-radius: 10px;
   background-image: url(Gradient.png);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   padding: 2.5px;
   float: left;
   margin: 1%;
@@ -339,6 +343,7 @@ h2 {
   border-radius: 10px;
   background-image: url(Gradient.png);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   padding: 1.5%;
   margin: 2.5%;
   width: 90%;
@@ -357,6 +362,7 @@ h2 {
 details {
   background-image: url(Gradient.png);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   color: white;
   padding: 18px;
   width: 90%;
@@ -407,6 +413,7 @@ footer {
   font-size: 0.8rem;
   background-image: url("Gradient.png");
   background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .section-title {
