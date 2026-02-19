@@ -60,6 +60,7 @@ header {
   padding: 1rem 5%;
   background-color:  var(--secondary-bg);
   background-image: url("Gradient.png");
+  background-repeat: no-repeat;
   border-bottom: 2px solid var(--accent-color);
   position: sticky;
   top: 0;
@@ -217,6 +218,7 @@ h2 {
   display: inline-block;
   transition: background-color 0.3s ease;
   background-image: url("Gradient.png");
+  background-repeat: no-repeat;
 }
 
 .cta-button:hover {
@@ -245,6 +247,7 @@ h2 {
 
 .chat {
   background-image: url(Gradient.png);
+  background-repeat: no-repeat;
   padding: 1.5rem;
   margin: 1.5rem;
   border-radius: 8px;
@@ -263,6 +266,7 @@ h2 {
 .userinput {
   background-color: white;
   background-image: url(Gradient.png);
+  background-repeat: no-repeat;
   padding: 0.5rem;
   margin: 1.5rem;
   position: fixed;
@@ -319,6 +323,7 @@ h2 {
 .subborder {
   border-radius: 10px;
   background-image: url(Gradient.png);
+  background-repeat: no-repeat;
   padding: 2.5px;
   float: left;
   margin: 1%;
@@ -333,6 +338,7 @@ h2 {
 .compareplans {
   border-radius: 10px;
   background-image: url(Gradient.png);
+  background-repeat: no-repeat;
   padding: 1.5%;
   margin: 2.5%;
   width: 90%;
@@ -350,6 +356,7 @@ h2 {
 
 details {
   background-image: url(Gradient.png);
+  background-repeat: no-repeat;
   color: white;
   padding: 18px;
   width: 90%;
@@ -399,6 +406,7 @@ footer {
   border-top: 1px solid var(--card-bg);
   font-size: 0.8rem;
   background-image: url("Gradient.png");
+  background-repeat: no-repeat;
 }
 
 .section-title {
