@@ -26,19 +26,21 @@
     </div>
 
     <div id="chatClosed" class="sidemenuclosed">
-      <span onclick="openNav()">&#9776</span>
+      <span onclick="openNav()" id="opensidemenubutton">&#9776</span>
     </div>
 
     <script>
       function openNav() {
       document.getElementById("chatSidemenu").style.width = "20%";
-      document.getElementById("chatClosed").style.width = "0"
+      document.getElementById("chatClosed").style.width = "0";
+      document.getElementBYId("opensidemenubutton").style.display = "none";
     }
 
     /* Set the width of the side navigation to 0 */
     function closeNav() {
       document.getElementById("chatSidemenu").style.width = "0";
-      document.getElementById("chatClosed").style.width = "5%"
+      document.getElementById("chatClosed").style.width = "5%";
+      document.getElementBYId("opensidemenubutton").style.display = "block"
     }
     </script>
    <div id="main">
