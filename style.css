@@ -412,6 +412,7 @@ footer {
   background-color: var(--secondary-bg);
   border-top: 1px solid var(--card-bg);
   font-size: 0.8rem;
+  bottom: 0;
   background-image: url("Gradient.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
